@@ -1,0 +1,22 @@
+.Home::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Home .Home__container .Home__container--fourColumn {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.Home .Home__container .Home__container--fourColumn::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Home .Home__container .Home__container--fourColumn:last-child {
+  margin-right: 0%;
+}

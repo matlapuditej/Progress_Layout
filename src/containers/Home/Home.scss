@@ -1,0 +1,10 @@
+@import "node_modules/jeet/jeet";
+
+.Home {
+  @include clearfix();
+  .Home__container {
+    .Home__container--fourColumn {
+      @include column(1/4);
+    }
+  }
+}

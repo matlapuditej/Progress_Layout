@@ -1,0 +1,20 @@
+.ProgressLayout {
+  .header {
+    background: lightgrey;
+    font-size: 16px;
+    height: auto;
+    padding: 5px;
+  }
+  .Card.Content {
+    color: lightgrey;
+  }
+  .ProgressLayout__footer {
+    clear: both;
+  }
+}
+.ProgressLayout__footerTitle {
+  float: left;
+}
+.ProgressLayout__footerValue {
+  float: right;
+}
